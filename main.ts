@@ -15,7 +15,7 @@ app.listen(port, () => {
 });
 
 const client = redis.createClient(+config.REDIS_PORT, config.REDIS_HOST, {
-  auth_pass: config.REIDS_PASS
+  auth_pass: config.REDIS_PASS
 });
 
 function watchOnce() {
