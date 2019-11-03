@@ -1,0 +1,30 @@
+{
+  "name": "yt-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "dependencies": {
+    "@types/moment": "2.13.0",
+    "express": "4.17.1",
+    "json8-patch": "1.0.1",
+    "lodash": "4.17.15",
+    "moment": "2.24.0",
+    "redis": "2.8.0",
+    "youtube-channel-videos": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.2",
+    "@types/fast-json-patch": "1.1.5",
+    "@types/lodash": "4.14.144",
+    "@types/node": "12.12.5",
+    "@types/redis": "2.8.14",
+    "ts-node": "8.4.1",
+    "tsc": "1.20150623.0",
+    "typescript": "3.6.4"
+  },
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "author": "Sebastian Oleński",
+  "license": "ISC"
+}
