@@ -7,7 +7,7 @@
     "@types/moment": "2.13.0",
     "express": "4.17.1",
     "json8-patch": "1.0.1",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "moment": "2.24.0",
     "redis": "2.8.0",
     "youtube-channel-videos": "1.0.0"
